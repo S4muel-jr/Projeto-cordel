@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #006400bd;
+    box-shadow: 2px 5px 8px #0000006e;
+    font-family: "Poetsen One" , verdana ,sans-serif;
+    font-size: 1.1em;
+    font-weight: lighter;  
+}
+
+main{
+    background-color: white;
+    box-shadow: 2px 5px 8px #0000006e;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+
+header{     /* configuacao do cabecalho*/
+    background-color: #006400bd;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+header p{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    height: 0px;
+}
+h1{
+    font-size: 4em;
+}
+
+a {
+    color: white;
+    text-decoration:none ;
+}
+
+ a:hover{
+    text-decoration: underline;
+    color: red;    
+}
+
+ .paragrafo{    /* configuracao do paragrafo*/
+    padding: 30px 0px  20px ;
+    height: 200px;
+   width: 300px;
+    line-height: 2em;
+    margin: auto;
+    text-align: justify;
+}
+
+#img01 , .img02{ /* configuracao da imagem*/
+    
+     background: white url('imagens/background001.jpg') right center no-repeat fixed ;
+     background-size:cover;
+    width: 97%;
+    height: 90vh;
+    color: white;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 5px 8px #0000006e;
+}
+
+.img02{
+
+    background: white url(imagens/background002.jpg) right center no-repeat fixed ;
+    background-size: cover;
+}
+
+.paragrafo-img {
+    background-color: #00000070;
+     padding: 20px;
+     height: auto;
+    width: 250px;
+    border-radius: 30px;
+    margin: auto;
+    line-height: 2em;
+}
+
+    footer{         /* Configuracao do rodape*/
+        background-color: #006400bd;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
